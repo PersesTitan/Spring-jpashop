@@ -51,7 +51,7 @@ public class MemberServiceTest {
         memberService.join(member1);
         try {
             memberService.join(member2);
-        } catch (IllegalArgumentException e) {
+        } catch (IllegalStateException e) {
             return;
         }
 
