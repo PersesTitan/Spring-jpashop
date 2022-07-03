@@ -1,4 +1,4 @@
-spring:
+#spring:
 #  datasource:
 #    url:  jdbc:h2:mem:test
 #    username: sa
@@ -13,7 +13,7 @@ spring:
 ##        show_sql: true
 #        format_sql: true
 
-logging:
-  level:
-    org.hibernate.SQL: debug
-#    org.hibernate.type: trace
+#logging:
+#  level:
+#    org.hibernate.SQL: debug
+##    org.hibernate.type: trace
